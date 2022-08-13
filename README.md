@@ -17,7 +17,7 @@ Testes para validar as partições de equivalência na Lojinha, que estão vincu
 
 ## Notas Gerais
 
-- Sempre utilizamos a anotação Before Each para capturar o token que será utilizado posteriormente no nos métodos de teste
+- Sempre utilizamos a anotação Before Each para capturar o token que será utilizado posteriormente nos métodos de teste
 - Armazenamos os dados que são enviados para a API através do uso de classes POJO
-- Criamos dados iniciais através do uso de classe Data Factory, para facilitar a criação e controle dos mesmos
+- Criamos dados iniciais através do uso da classe Data Factory, para facilitar a criação e controle dos mesmos
 - Nesse projeto fazemos uso do JUnit 5, o que nos dá a possibilidade de usar a anotação DisplayName para dar descrições em português para nossos testes
